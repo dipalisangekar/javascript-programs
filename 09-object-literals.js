@@ -83,6 +83,47 @@ let employee = {
 
 employee.details();
     
+console.log(`====== Object keys and Values =========`);
+
+ 
+
+let emp = {
+
+    fullName: "Elon Musk",
+
+    age: 55,
+
+    city: "LA",
+
+    country: "USA"
+
+}
+
+const empKeys = Object.keys(emp);
+
+console.log(empKeys);
+
+ 
+
+const empValues = Object.values(emp);
+
+console.log(empValues);
+
+ 
+
+const entries = Object.entries(emp);
+
+console.log(entries);
+
+ 
+
+console.log(entries[0][0]);
+
+console.log(entries[0][1]);
+
+console.log(entries[1][0]);
+
+console.log(entries[1][1]);
 
 
 

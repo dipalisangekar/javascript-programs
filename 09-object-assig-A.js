@@ -40,11 +40,12 @@ for (let index = 0; index < professor.certificates.length; index++) {
     console.log(element);
     
     
-}
+ }
 console.log("=================Complete Object=====================");
 for (const key in professor) {
     if (Object.prototype.hasOwnProperty.call(professor, key)) {
         const element = professor[key];
         console.log(`${key}:${element}`);
     }
-}
+ }
+
