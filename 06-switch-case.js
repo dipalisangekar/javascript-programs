@@ -1,5 +1,3 @@
-
-to  Everyone
 var day = function(dayNum){
     switch (dayNum) {
         case 1:
@@ -17,7 +15,7 @@ var day = function(dayNum){
         case 5:
             console.log("Friday");
             break;
-        case 6:
+            case 6:
             console.log("Sat");
             break;
         case 7:
@@ -34,7 +32,6 @@ day(5);
 day(100);
 
 console.log("What happen when we miss to write the break statement");
-day(2);
 
 var day = function(dayNum){
     switch (dayNum) {

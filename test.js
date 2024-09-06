@@ -1,3 +1,5 @@
+var numberInString = "100";
+console.log(numberInString);
 
-console.log("Hello, Dipali");
-
+var myNumber = +numberInString;
+console.log(typeof myNumber);

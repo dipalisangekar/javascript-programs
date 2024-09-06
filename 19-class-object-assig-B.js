@@ -25,7 +25,6 @@ const emp_mahi = new Employee(99, "Mahesh", "HR",85000,"Infy");
 
 const arrayEmployee = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_vinayak, emp_mahi]; 
 
-console.log(` `);
 console.log("==============1.Employee working in TCS===============");
    for (const element of arrayEmployee) {
     if (element.emp_company=="TCS") {
